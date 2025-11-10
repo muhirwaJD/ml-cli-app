@@ -1,9 +1,6 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# 📦 My ML Streamlit App Starter Kit 
 
-Description of the app ...
+This is my first CLI ML app
 
 ## Demo App
 
