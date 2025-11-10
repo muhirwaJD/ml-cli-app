@@ -24,4 +24,8 @@ with st.expander('Data'):
 
 # Data visualization
 with st.expander('Data Visualization'):
+  st.write('**Scatter plot**')
   st.scatter_chart(data=df, x='bill_length_mm', y='body_mass_g', x_label='bill_length', y_label='body_mass', color='species', width="stretch", height="content")
+
+  st.write('**Bar Graph**')
+  st.bar_chart(data=df, x='bill_length_mm', y='body_mass_g', x_label='bill_length', y_label='body_mass', color='species', horizontal=False, sort=True, width="stretch", height="content")
