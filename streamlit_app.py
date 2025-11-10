@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('My first CLI streamlit')
+st.title('Muhirwa')
 
-st.write('Waguan my friend')
+st.info('This is my first ML app')
